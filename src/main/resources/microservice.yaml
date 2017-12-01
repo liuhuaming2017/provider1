@@ -10,6 +10,9 @@ cse:
       address: https://cse.cn-north-1.myhwclouds.com:443
       instance:
         watch: false
+ 　references:
+    　lhmtest:
+      　version-rule: 0.0.1
   config:
     client:
       serverUri: https://cse.cn-north-1.myhwclouds.com:443
@@ -21,6 +24,6 @@ cse:
   rest:
     address: 0.0.0.0:8080
   credentials:
-    accessKey: ak
-    secretKey: sk
+    accessKey: HRDJYOX1GAH651UXPBJG
+    secretKey: 6SpWZedOf1wRDLZax4FJBeRlGBHIpciYGISNMMRy
     akskCustomCipher: default

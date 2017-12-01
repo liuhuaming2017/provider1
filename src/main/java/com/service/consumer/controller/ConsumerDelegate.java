@@ -14,7 +14,7 @@ public class ConsumerDelegate {
 
         // Do Some Magic Here!
            String sayHelloResult = restTemplate.getForObject("cse://lhmtest/helloworld?name=" + name, null, String.class);       
-         return sayHelloResult;
+
 
     }
 }

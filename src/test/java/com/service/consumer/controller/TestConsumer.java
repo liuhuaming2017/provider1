@@ -11,14 +11,6 @@ public class TestConsumer {
         ConsumerDelegate consumerDelegate = new ConsumerDelegate();
 
 
-    @Test
-    public void testhelloworld(){
-
-        String expactReturnValue = "hello"; // You should put the expect String type value here.
-
-        String returnValue = consumerDelegate.helloworld("hello");
-
-        assertEquals(expactReturnValue, returnValue);
-    }
+  
 
 }

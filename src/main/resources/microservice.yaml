@@ -12,7 +12,7 @@ cse:
         watch: false
   references:
       lhmtest:
-      version-rule: 0.0.1
+        version-rule: 0.0.1
   config:
     client:
       serverUri: https://cse.cn-north-1.myhwclouds.com:443

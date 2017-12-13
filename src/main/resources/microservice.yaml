@@ -1,7 +1,7 @@
 APPLICATION_ID: springmvctest
 service_description:
   name: provider1
-  version: 0.0.1
+  version: 0.0.2
   properties:
     allowCrossApp: false
 cse:

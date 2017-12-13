@@ -25,12 +25,13 @@ public class Provider1Impl {
         return userProvider1Delegate.helloworld(name);
     }
     
-     @RequestMapping(value = "/getuname",        
-        produces = { "application/json" },         
-        method = RequestMethod.GET)    
+     @RequestMapping(value = "/getuname",
+        produces = { "application/json" },
+        method = RequestMethod.GET)
     public String getuname( @RequestParam(value = "name", required = true) String name,
-                            @RequestParam(value = "test", required = true) String test){
-        return userProvider1Delegate.helloworld(name,test);    
+                           @RequestParam(value = "test", required = true) String test)
+    {
+        return userProvider1Delegate.getuname(name,test);
     }
 
 }

@@ -11,4 +11,8 @@ public class Provider1Delegate {
         // Do Some Magic Here!
         return name;
     }
+     public String helloworld(String name,String test){
+        // Do Some Magic Here!        
+         return name + test;    
+     }
 }
